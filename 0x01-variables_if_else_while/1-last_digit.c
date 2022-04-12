@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+// This program writes last digit
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
