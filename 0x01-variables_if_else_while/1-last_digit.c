@@ -1,7 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
+/**
+ * main
+ *
+ * Return: Always (Success)
+ */
 int main(void)
 {
 int n, lastd;
