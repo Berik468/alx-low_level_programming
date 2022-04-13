@@ -1,21 +1,19 @@
 #include <stdio.h>
 
 /**
-* main - prints int
-* Description: n.o are under 10 without using any char vars
-*
-* Return: 0
-*/
+ * main - entry point
+ *
+ * Description: Print numbers 0 to 9 on one line
+ * Return: 0
+ */
 int main(void)
 {
-	int x = 48;
+int i;
 
-	while (x < 58)
-	{
-		putchar(x);
-		x++;
-	}
+for (i = 0; i <= 9; ++i)
+putchar('0' + i);
 
-	putchar('\n');
-	return (0);
+putchar('\n');
+
+return (0);
 }

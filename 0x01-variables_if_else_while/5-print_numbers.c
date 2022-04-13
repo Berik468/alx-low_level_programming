@@ -1,16 +1,19 @@
 #include <stdio.h>
+
 /**
-* main - prints integers
-* Description: all int are under 10
-* Return: 0
+ * main - entry point
+ *
+ * Description: Print numbers 0 to 9 on one line
+ * Return: 0
  */
 int main(void)
 {
-	int a;
+char i;
 
-	for (a = 0; a < 10; a++)
-		printf("%d", a);
+for (i = '0'; i <= '9'; ++i)
+putchar(i);
 
-	printf("\n");
-	return (0);
+putchar('\n');
+
+return (0);
 }

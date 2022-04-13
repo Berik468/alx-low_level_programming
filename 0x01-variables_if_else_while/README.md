@@ -1,1 +1,1 @@
-#C variables and conditionals
+CONDITIONAL OPERATORS IN C
